@@ -2,3 +2,19 @@
 <view>hello world</view>
 <text>{{count}}</text>
 <button size="mini" bindtap="handlerClick">+</button>
+<text selectable>\nhello world\n</text>
+<text space="emsp">hello world\n</text>
+<text>hello &gt; world\n</text>
+
+<input />
+<input />
+
+<image  src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" 
+        bindload="handlerImgLoad"
+        lazy-load
+        wx:for="{{5}}"
+/>
+
+<image src="{{image}}"/>
+
+<button bindtap="chooseImage">chooseImage</button>

@@ -1,1 +1,31 @@
 /* pages/category/category.wxss */
+
+@import "/style/wxss/weui-searchbar.wxss";
+
+.scroll1{
+  width: 100vw;
+  height: 150px;
+  white-space: nowrap;
+  background-color: red;
+}
+
+.scroll1 view{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: orange;
+}
+
+.scroll2{
+  width: 100vw;
+  height: 200px;
+  background-color: red;
+}
+
+.scroll2 view{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: blue;
+}

@@ -1,1 +1,28 @@
 /* pages/index/index.wxss */
+input{
+  border: 1px solid red;
+}
+
+.hover{
+  color: white;
+  background-color: red;
+}
+
+.box1{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.box1-hover{
+  font-size: 20px;
+  background-color: yellow;
+}
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: olive;
+}
+.box2-hover{
+  font-size: 20px;
+  background-color: skyblue;
+}
