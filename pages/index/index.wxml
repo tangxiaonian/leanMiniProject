@@ -1,9 +1,4 @@
 <!--pages/index/index.wxml-->
 <view>hello world</view>
 <text>{{count}}</text>
-
-<view wx:for="{{students}}">
-  {{item.name}} - {{item.age}}
-</view>
-
 <button size="mini" bindtap="handlerClick">+</button>
