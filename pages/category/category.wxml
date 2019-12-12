@@ -1,5 +1,12 @@
 <!--pages/category/category.wxml-->
-<text>pages/category/category.wxml</text>
+<import src="/template/common.wxml"/>
+
+<template is="navbar" data="{{name:'tang',age:18}}"/>
+<template is="navbar" data="{{name:'tang',age:18}}"/>
+
+<wxs src="../../wxs/common.wxs" module="common"/>
+
+<view>结果:{{common.sum(1,2)}}</view>
 
 <scroll-view class="scroll1" scroll-x scroll-left="10">
 
@@ -63,3 +70,15 @@
     </navigator>
   </view>
 </view>
+
+<text>-------------------</text>
+
+
+<view wx:if="{{false}}">哈哈哈</view>
+<view wx:elif="{{false}}">xxxx</view>
+<view wx:else>666</view>
+
+
+<block wx:for="{{3}}" wx:key="index">
+  <text>{{item}} --- {{index}}</text>
+</block>
