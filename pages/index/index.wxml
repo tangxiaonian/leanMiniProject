@@ -1,4 +1,11 @@
 <!--pages/index/index.wxml-->
 <view>hello world</view>
 <text>{{count}}</text>
+<button size="mini" bindtap="handlerShowToast">showToast</button>
+
+
+<button size="mini" bindtap="handlerShowModal">handlershowModal</button>
+
+<button size="mini" bindtap="showActionSheet">showActionSheet</button>
+
 <button size="mini" bindtap="handlerClick">+</button>
