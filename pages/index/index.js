@@ -1,10 +1,13 @@
 Page({
-  data: {
-    count: 0
+  data:{
+    
   },
-  handlerClick() {
-    this.setData({
-      count: this.data.count + 1
-    });
+  handlerClick(event){
+   
+    let myStyle = this.selectComponent("#my-style");
+
+    myStyle.increment();
+
   }
+
 });

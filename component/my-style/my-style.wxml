@@ -1,0 +1,7 @@
+<!--component/my-style/my-style.wxml-->
+<view class="box">
+  my-style
+  
+  <text id="text">{{count}}</text>
+
+</view>

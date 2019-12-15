@@ -1,0 +1,5 @@
+/* component/my-style/my-style.wxss */
+
+.box{
+  color: orange;
+}

@@ -1,0 +1,5 @@
+<!--component/my-component/my-cp.wxml-->
+<view class="my-class-title">{{title}}</view>
+<view class="my-class-content">{{content}}</view>
+
+<button size="mini" bindtap="bindHanlerTap">btn</button>

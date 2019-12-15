@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "my-cp": "/component/my-component/my-cp",
+    "my-style": "/component/my-style/my-style",
+    "tab-controller": "/component/common/tab-controller/tab-controller",
+    "my-tag":"/component/my-tag/my-tag"
+  }
 }

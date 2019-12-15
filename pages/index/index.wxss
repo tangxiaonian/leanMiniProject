@@ -1,1 +1,12 @@
 /* pages/index/index.wxss */
+
+.my-cp{
+  font-size: 40rpx;
+}
+
+.my-class-title{
+  color: orange;
+}
+.my-class-content{
+  color: pink;
+}

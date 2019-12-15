@@ -1,0 +1,23 @@
+/* component/common/tab-controller/tab-controller.wxss */
+
+.container{
+  display: flex;
+  padding: 15rpx;
+  font-size: 35rpx;
+  color: white;
+  background-color: pink;
+}
+
+.container view{
+  flex: 1;
+  text-align: center;
+}
+
+.active{
+  color: red;
+}
+
+.active text{
+  padding-bottom: 8rpx;
+  border-bottom: 6rpx solid red;
+}

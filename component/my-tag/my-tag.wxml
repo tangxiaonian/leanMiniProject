@@ -1,0 +1,7 @@
+<!--component/my-tag/my-tag.wxml-->
+<view class="my-tag">
+  <slot name="before"></slot>
+  <!-- <slot/> -->
+  <slot name="after"></slot>
+</view>
+

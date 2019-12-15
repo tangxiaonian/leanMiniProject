@@ -1,0 +1,14 @@
+<!--component/common/tab-controller/tab-controller.wxml-->
+<view class="container">
+
+  <view wx:for="{{titles}}" 
+        wx:key="index"
+        data-index="{{index}}"  
+        data-num="xx"
+        bind:tap="handlerClick"
+        class="{{index === currentIndex ? 'active' : ''}}"
+  >        
+        <text>{{item}}</text>        
+  </view>
+
+</view>
